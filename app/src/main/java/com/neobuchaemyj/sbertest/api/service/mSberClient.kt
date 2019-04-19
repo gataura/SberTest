@@ -4,6 +4,8 @@ import com.neobuchaemyj.sbertest.common.Constants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/** Retrofit билдер */
+
 class mSberClient {
 
     private val builder = Retrofit

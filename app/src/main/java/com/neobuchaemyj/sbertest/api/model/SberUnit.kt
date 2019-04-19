@@ -1,5 +1,7 @@
 package com.neobuchaemyj.sbertest.api.model
 
+/** Модель объекта json*/
+
 class SberUnit (
 
     private var usNumber: String = "",
@@ -11,8 +13,8 @@ class SberUnit (
     private var houseName: String = "",
     private var buildingType: String = "",
     private var buildingNumber: String = "",
-    private var lat: Double = 0.0,
-    private var long: Double = 0.0,
+    private var lat: Double = 0.0,// только эти по факту используются
+    private var long: Double = 0.0,// другие как задел на будущее
     private var installPlace: String = "",
     private var workType: String = "",
     private var usType: String = "",

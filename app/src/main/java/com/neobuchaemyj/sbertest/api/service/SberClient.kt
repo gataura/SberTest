@@ -2,13 +2,13 @@ package com.neobuchaemyj.sbertest.api.service
 
 import retrofit2.Call
 import com.neobuchaemyj.sbertest.api.model.SberUnit
-import io.reactivex.Flowable
 import retrofit2.http.GET
-import retrofit2.http.Headers
+
+/** Retrofit запрос на локальный сервлет Tomcat для получения Json объекта*/
 
 interface SberClient {
 
-    @GET("bins/dxcz4")
+    @GET("sberTask/")
     fun getSberUnits(): Call<List<SberUnit>>
 
 }

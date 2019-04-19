@@ -1,3 +1,3 @@
 package com.neobuchaemyj.sbertest.presenter.helpers
 
-interface BaseView {}
+interface BaseView {} //Базовый интерфейс для дальнейших интерфейсов
